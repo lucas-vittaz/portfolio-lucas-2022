@@ -1,4 +1,5 @@
 #skills{
+  position: relative;
   h3{
     color: $my-orange;
   }
@@ -83,4 +84,15 @@
     color: $my-blue;
   }
 
+}
+.skills-paint{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotate(-146.89deg);
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:1577.89px;
+  height: 997.94px;
 }
