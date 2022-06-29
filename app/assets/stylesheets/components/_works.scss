@@ -3,7 +3,8 @@
     color: $my-orange;
   }
   .carroussel{
-    max-width: 800px;
+    max-width: 525px;
+    max-height: 688px;
     margin: 0, auto;
     padding: 50px;
     position: relative;
@@ -27,7 +28,7 @@
   .cont-btn{
     position: absolute;
     top: 50%;
-    left: 90%;
+    left: 85%;
     width: 10%;
     height: auto;
     background-color: $my-blue;
@@ -38,5 +39,12 @@
       color: $my-white;
       cursor: pointer;
     }
+  }
+  .cont-text{
+    display: none;
+  }
+  .cont-text.active{
+    display: block;
+    animation: fade 0.8s;
   }
 }
