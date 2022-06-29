@@ -3,8 +3,15 @@
     background-color: $my-white;
     width: 500px;
     height: 500px;
+    border-radius: 4px;
   }
   h3{
     color: $my-orange;
+  }
+  .row{
+    justify-content: space-around;
+  }
+  input{
+    width: 100%;
   }
 }
