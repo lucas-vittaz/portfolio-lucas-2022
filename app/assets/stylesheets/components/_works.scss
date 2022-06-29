@@ -1,6 +1,13 @@
 #works{
+  h3{
+    color: $my-orange;
+  }
   #carouselExampleCaptions{
     width: 30%;
     height: 60%;
+  }
+  .scroll{
+    text-decoration: none;
+    color: $my-blue;
   }
 }
