@@ -1,4 +1,5 @@
 #works{
+  position: relative;
   h3{
     color: $my-orange;
   }
@@ -9,5 +10,22 @@
   .scroll{
     text-decoration: none;
     color: $my-blue;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 500;
+  }
+  .carousel-control-prev{
+    position: absolute;
+    top: 0;
+    left: 500;
+    z-index: 10000000000;
+  }
+  .carousel-control-next{
+    position: absolute;
+    top: 0;
+    left: 500;
+    z-index: 10000000000;
   }
 }
