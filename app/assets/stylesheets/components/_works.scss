@@ -1,4 +1,5 @@
 #works{
+  position: relative;
   h3{
     color: $my-orange;
   }
@@ -50,5 +51,15 @@
   .scroll{
     text-decoration: none;
     color: $my-blue;
+  }
+  .works-paint{
+    position: absolute;
+    top:  20%;
+    left: 0;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
   }
 }
