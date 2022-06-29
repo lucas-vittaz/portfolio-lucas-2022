@@ -1,4 +1,7 @@
 #skills{
+  h3{
+    color: $my-orange;
+  }
 
   .skills-grid{
     display: grid;
@@ -74,6 +77,10 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
+  }
+  .scroll{
+    text-decoration: none;
+    color: $my-blue;
   }
 
 }

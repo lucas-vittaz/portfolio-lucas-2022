@@ -1,0 +1,50 @@
+#works{
+  h3{
+    color: $my-orange;
+  }
+  .carroussel{
+    max-width: 525px;
+    max-height: 688px;
+    margin: 0, auto;
+    padding: 50px;
+    position: relative;
+  }
+  .slider img{
+    width: 100%;
+    display: none;
+  }
+  img.active{
+    display: block;
+    animation: fade 0.8s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .cont-btn{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    width: 10%;
+    height: auto;
+    background-color: $my-blue;
+    border: 1px solid $my-orange;
+    box-shadow: 0 10px 10px $my-blue;
+    .btn-nav{
+      font-size: 50px;
+      color: $my-white;
+      cursor: pointer;
+    }
+  }
+  .cont-text{
+    display: none;
+  }
+  .cont-text.active{
+    display: block;
+    animation: fade 0.8s;
+  }
+}

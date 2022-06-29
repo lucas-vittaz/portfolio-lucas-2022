@@ -23,8 +23,9 @@
 
   .banner h1 {
     margin: 0;
-    color: $my-white;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    color: $my-blue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $my-white;
     font-size: 32px;
     font-weight: bold;
   }
@@ -37,14 +38,19 @@
   }
   .social-links{
     a{
-
       margin-right: 20px;
       color: $my-gray;
+    }
+    a:hover{
+      color: $my-white;
     }
   }
   .scroll{
     text-decoration: none;
     color: $my-gray;
+  }
+  .scroll:hover{
+    color: $my-white
   }
 
 }
