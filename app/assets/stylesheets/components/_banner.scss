@@ -1,25 +1,50 @@
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  height: 100vh;
-}
+#hero{
+  .navbar-nav{
+    justify-content: space-between;
+    .nav-link{
+      text-decoration: none;
+      color: $my-white;
+    }
+    .nav-item.active{
+      background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
+      background-size: cover;
+      .nav-link{
+        text-decoration: none;
+        color: $my-orange !important;
+      }
+    }
+  }
+  .banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 100vh;
+  }
 
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
+  .banner h1 {
+    margin: 0;
+    color: $my-white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
 
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
-navbar-nav{
-  text-decoration: none;
-  color: ;
+  .banner h2 {
+    font-size: 20px;
+    color: $my-white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  .social-links{
+    a{
+
+      margin-right: 20px;
+      color: $my-gray;
+    }
+  }
+  .scroll{
+    text-decoration: none;
+    color: $my-gray;
+  }
+
 }
