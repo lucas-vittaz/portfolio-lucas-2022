@@ -1,31 +1,42 @@
 #works{
-  position: relative;
   h3{
     color: $my-orange;
   }
-  #carouselExampleCaptions{
-    width: 30%;
-    height: 60%;
+  .carroussel{
+    max-width: 800px;
+    margin: 0, auto;
+    padding: 50px;
+    position: relative;
   }
-  .scroll{
-    text-decoration: none;
-    color: $my-blue;
+  .slider img{
+    width: 100%;
+    display: none;
   }
-  .carousel-caption{
+  img.active{
+    display: block;
+    animation: fade 0.8s;
+  }
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .cont-btn{
     position: absolute;
-    top: 0;
-    left: 500;
-  }
-  .carousel-control-prev{
-    position: absolute;
-    top: 0;
-    left: 500;
-    z-index: 10000000000;
-  }
-  .carousel-control-next{
-    position: absolute;
-    top: 0;
-    left: 500;
-    z-index: 10000000000;
+    top: 50%;
+    left: 90%;
+    width: 10%;
+    height: auto;
+    background-color: $my-blue;
+    border: 1px solid $my-orange;
+    box-shadow: 0 10px 10px $my-blue;
+    .btn-nav{
+      font-size: 50px;
+      color: $my-white;
+      cursor: pointer;
+    }
   }
 }
