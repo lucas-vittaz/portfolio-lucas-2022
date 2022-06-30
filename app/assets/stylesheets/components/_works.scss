@@ -1,4 +1,5 @@
 #works{
+  position: relative;
   h3{
     color: $my-orange;
   }
@@ -8,14 +9,18 @@
     margin: 0, auto;
     padding: 50px;
     position: relative;
-  }
-  .slider img{
-    width: 100%;
-    display: none;
-  }
-  img.active{
-    display: block;
-    animation: fade 0.8s;
+    .slider img{
+      width: 100%;
+      display: none;
+      max-width: 525px;
+      max-height: 688px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    img.active{
+      display: block;
+      animation: fade 0.8s;
+    }
   }
   @keyframes fade {
     from {
@@ -34,6 +39,7 @@
     background-color: $my-blue;
     border: 1px solid $my-orange;
     box-shadow: 0 10px 10px $my-blue;
+    border-radius: 4px;
     .btn-nav{
       font-size: 50px;
       color: $my-white;
@@ -50,5 +56,15 @@
   .scroll{
     text-decoration: none;
     color: $my-blue;
+  }
+  .works-paint{
+    position: absolute;
+    top:  20%;
+    left: 0;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
   }
 }

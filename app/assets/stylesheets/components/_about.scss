@@ -1,9 +1,20 @@
 #about{
+  position: relative;
   h3{
     color: $my-orange;
   }
   .scroll{
     text-decoration: none;
     color: $my-blue;
+  }
+  .about-paint{
+    position: absolute;
+    top: -350px;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 1200px;
   }
 }

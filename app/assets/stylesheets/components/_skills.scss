@@ -20,13 +20,12 @@
 
     .skills-grid-percent{
       position: absolute;
-      top: 26px;
-      left: 24px;
+      top: 24px;
+      left: 21px;
     }
     .skills-grid-title{
       position: absolute;
       top: 89PX;
-      left: 31px;
     }
   }
   .one{
@@ -35,7 +34,6 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
-
   }
   .two{
     grid-column-start: 2;
@@ -83,16 +81,35 @@
     text-decoration: none;
     color: $my-blue;
   }
+  .ruby{
+    left: 16px;
+  }
+  .rails{
+    left: 16px;
+  }
+  .stimulus{
 
+  }
+  .javascript{
+    left: -4px;
+  }
+  .react{
+    left: 4px;
+  }
+  .sql{
+    left: 17px;
+  }
+  .scss{
+    left: 17px;
+  }
 }
 .skills-paint{
   position: absolute;
   top: 0;
   right: 0;
-  transform: rotate(-146.89deg);
   z-index: -1;
   background-size: cover;
   background-repeat: no-repeat;
-  width:1577.89px;
-  height: 997.94px;
+  width: 500px;
+  height: 1000px;
 }
