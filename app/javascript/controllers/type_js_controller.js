@@ -15,14 +15,14 @@ export default class extends Controller {
 
       if (window.location.pathname == "/quests") {
         var questsString = {
-          strings: ['This is only the beginning of your journey.', 'My name is Shiba and I will help you during your journey !', 'You are on your way to become a wonderful hero.'],
-          showCursor: false,
+          strings: ['LUCAS VITTAZ'],
+          showCursor: true,
           loop: true,
           typeSpeed: 30,
           smartBackspace: true,
           backDelay: 4000,
         };
-        new Typed('.shiba-speech', questsString);
+        
         this.playShibaTalk()
 
         // Await.sleep(1000)
