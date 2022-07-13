@@ -3,9 +3,12 @@
   h3{
     color: $my-orange;
     font-size: 3rem;
-    font-style: bold;
+    font-weight: bold;
   }
 
+  p {
+    font-size: 1.5rem;
+  }
 
   .skills-grid{
     display: grid;
