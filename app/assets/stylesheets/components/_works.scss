@@ -54,6 +54,15 @@
   }
   .cont-text{
     display: none;
+    .lang{
+      margin-right: 10px;
+      width: auto;
+      height: auto;
+      padding: 1rem;
+      background-color: $my-gray;
+      color: $my-white;
+      border-radius: 4px;
+    }
   }
   .cont-text.active{
     display: block;
