@@ -1,5 +1,6 @@
 #hero{
   position: relative;
+
   .navbar-nav{
     position: absolute;
     top: 4%;
@@ -11,7 +12,7 @@
       text-decoration: none;
       color: $my-white;
     }
-    .nav-item.active{
+    .nav-item:hover{
       background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -33,7 +34,7 @@
     color: $my-blue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $my-white;
-    font-size: 32px;
+    font-size: 60px;
     font-weight: bold;
   }
 

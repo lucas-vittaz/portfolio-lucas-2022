@@ -2,7 +2,13 @@
   position: relative;
   h3{
     color: $my-orange;
+    font-size: 3rem;
+    font-weight: bold;
   }
+  p {
+    font-size: 1.5rem;
+  }
+
   .carroussel{
     max-width: 525px;
     max-height: 688px;
