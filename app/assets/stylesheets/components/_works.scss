@@ -58,10 +58,16 @@
       margin-right: 10px;
       width: auto;
       height: auto;
-      padding: 1rem;
+      padding: 0.7rem;
       background-color: $my-gray;
       color: $my-white;
       border-radius: 4px;
+    }
+    .fa-github{
+      color: $my-blue;
+    }
+    .fa-github:hover{
+      color: $my-gray;
     }
   }
   .cont-text.active{
