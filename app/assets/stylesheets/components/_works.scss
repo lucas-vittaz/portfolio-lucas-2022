@@ -31,14 +31,24 @@
   .controls{
     width: auto;
     height: 5%;
-    span{
+    div{
       width: 116px;
       height: 4px;
       margin-right: 10px;
       background-color: $my-gray;
     }
-    span.active{
+    div.active{
       background-color: $my-blue;
+    }
+    .work-nb{
+      display: none;
+      font-size: 1rem;
+      font-weight: bold;
+      color: $my-blue;
+    }
+    .work-nb.active{
+      display: block;
+
     }
   }
   @keyframes fade {
