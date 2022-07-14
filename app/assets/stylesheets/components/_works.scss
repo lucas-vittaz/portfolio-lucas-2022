@@ -5,6 +5,10 @@
     font-size: 3rem;
     font-weight: bold;
   }
+  h4{
+    font-weight: bold;
+    color: $my-blue;
+  }
   p {
     font-size: 1.5rem;
   }
@@ -85,6 +89,9 @@
       background-color: $my-gray;
       color: $my-white;
       border-radius: 4px;
+    }
+    .lang:hover{
+      background-color: $my-blue;
     }
     .fa-github{
       color: $my-blue;
