@@ -22,7 +22,8 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: black 15px solid;
+    border: 16px solid $my-blue; /* Light grey */
+    border-top: 16px solid $my-orange; /* Blue */
 
     .skills-grid-percent{
       position: absolute;

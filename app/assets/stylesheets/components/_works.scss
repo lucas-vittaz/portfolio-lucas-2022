@@ -28,6 +28,19 @@
       animation: fade 0.8s;
     }
   }
+  .controls{
+    width: auto;
+    height: 5%;
+    span{
+      width: 116px;
+      height: 4px;
+      margin-right: 10px;
+      background-color: $my-gray;
+    }
+    span.active{
+      background-color: $my-blue;
+    }
+  }
   @keyframes fade {
     from {
       opacity: 0;
@@ -54,6 +67,21 @@
   }
   .cont-text{
     display: none;
+    .lang{
+      margin-right: 10px;
+      width: auto;
+      height: auto;
+      padding: 0.7rem;
+      background-color: $my-gray;
+      color: $my-white;
+      border-radius: 4px;
+    }
+    .fa-github{
+      color: $my-blue;
+    }
+    .fa-github:hover{
+      color: $my-gray;
+    }
   }
   .cont-text.active{
     display: block;
