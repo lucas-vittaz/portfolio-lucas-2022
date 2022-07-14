@@ -22,8 +22,8 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    border: 16px solid $my-blue; /* Light grey */
-    border-top: 16px solid $my-orange; /* Blue */
+    border: 16px solid $my-blue;
+
 
     .skills-grid-percent{
       position: absolute;
@@ -41,6 +41,8 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
+
+    border-right: 16px solid $my-orange;
   }
   .two{
     grid-column-start: 2;
@@ -48,6 +50,8 @@
 
     grid-row-start: 2;
     grid-row-end: 2;
+
+    border-right: 16px solid $my-orange;
   }
   .three{
     grid-column-start: 3;
@@ -55,6 +59,8 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
+
+    border-right: 16px solid $my-orange;
   }
   .four{
     grid-column-start: 4;
@@ -62,6 +68,8 @@
 
     grid-row-start: 2;
     grid-row-end: 2;
+
+    border-right: 16px solid $my-orange;
   }
   .five{
     grid-column-start: 5;
@@ -69,6 +77,8 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
+
+    border-right: 16px solid $my-orange;
   }
   .six{
     grid-column-start: 6;
@@ -76,6 +86,8 @@
 
     grid-row-start: 2;
     grid-row-end: 2;
+
+    border-right: 16px solid $my-orange;
   }
   .seven{
     grid-column-start: 7;
@@ -83,6 +95,8 @@
 
     grid-row-start: 1;
     grid-row-end: 1;
+
+    border-right: 16px solid $my-orange;
   }
   .scroll{
     text-decoration: none;
