@@ -66,13 +66,13 @@
   .cont-btn{
     position: absolute;
     top: 50%;
-    left: 85%;
-    width: 10%;
+    left: 71%;
+    width: 20%;
     height: auto;
     background-color: $my-blue;
     border: 1px solid $my-orange;
     box-shadow: 0 10px 10px $my-blue;
-    border-radius: 4px;
+    border-radius: 50% 0 0 50%;
     .btn-nav{
       font-size: 50px;
       color: $my-white;

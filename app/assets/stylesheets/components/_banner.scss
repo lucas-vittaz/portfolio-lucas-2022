@@ -11,10 +11,11 @@
       padding: 2rem;
       text-decoration: none;
       color: $my-white;
+      font-weight: bold;
     }
     .nav-item:hover{
       background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
-      background-size: contain;
+      background-size: 90%;
       background-repeat: no-repeat;
       .nav-link{
         text-decoration: none;
@@ -36,6 +37,12 @@
     -webkit-text-stroke-color: $my-white;
     font-size: 60px;
     font-weight: bold;
+    animation: blink 0.5 step-end infinite alternate;
+  }
+  @keyframes blink {
+    50%{
+      border-color: transparent;
+    }
   }
 
   .banner h2 {
