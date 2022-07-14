@@ -6,6 +6,7 @@ export default class extends Controller {
     const slideNumber = items.length;
     const text = document.querySelectorAll('.cont-text');
     const controls = document.querySelectorAll('.carousel-control');
+    const number = document.querySelectorAll('.work-nb');
     const next = document.querySelector('.btn-nav');
     let count = 0;
 
@@ -13,6 +14,7 @@ export default class extends Controller {
       items[count].classList.remove('active');
       text[count].classList.remove('active');
       controls[count].classList.remove('active');
+      number[count].classList.remove('active');
       if (count < slideNumber -1) {
         count += 1;
       } else {
@@ -21,6 +23,7 @@ export default class extends Controller {
       items[count].classList.add('active');
       text[count].classList.add('active');
       controls[count].classList.add('active');
+      number[count].classList.add('active');
     }
     next.addEventListener('click', nextSlide);
 
@@ -32,11 +35,13 @@ export default class extends Controller {
         items[i].classList.remove('active');
         text[i].classList.remove('active');
         controls[i].classList.remove('active');
+        number[i].classList.remove('active');
       }
 
       items[i].classList.add('active');
       text[i].classList.add('active');
       controls[i].classList.add('active');
+      number[i].classList.add('active');
       });
     }
 
