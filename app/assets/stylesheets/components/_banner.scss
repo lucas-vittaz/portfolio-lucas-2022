@@ -10,13 +10,13 @@
       margin-right: 50px;
       padding: 2rem;
       text-decoration: none;
-      color: $my-white;
-      font-weight: bold;
+      color: $my-gray;
     }
     .nav-item:hover{
       background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
       background-size: 90%;
       background-repeat: no-repeat;
+      font-weight: bold;
       .nav-link{
         text-decoration: none;
         color: $my-orange !important;
