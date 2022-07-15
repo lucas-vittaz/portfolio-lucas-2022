@@ -5,7 +5,14 @@
     font-size: 3rem;
     font-weight: bold;
   }
-
+  .scroll{
+    text-decoration: none;
+    color: $my-blue;
+    transition: 0.3s;
+  }
+  .scroll:hover{
+    color: $my-orange;
+  }
   p {
     font-size: 1.5rem;
   }
@@ -124,6 +131,7 @@
     left: 17px;
   }
 }
+
 .skills-paint{
   position: absolute;
   top: 0;

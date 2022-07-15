@@ -8,10 +8,16 @@
   p {
     font-size: 1.5rem;
   }
-
+  .btn-download{
+    transition: 0.3s ease-in-out;
+  }
   .scroll{
     text-decoration: none;
     color: $my-blue;
+    transition: 0.3s;
+  }
+  .scroll:hover{
+    color: $my-orange;
   }
   .about-paint{
     position: absolute;

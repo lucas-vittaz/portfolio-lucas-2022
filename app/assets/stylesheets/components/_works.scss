@@ -12,7 +12,14 @@
   p {
     font-size: 1.5rem;
   }
-
+  .scroll{
+    text-decoration: none;
+    color: $my-blue;
+    transition: 0.3s;
+  }
+  .scroll:hover{
+    color: $my-orange;
+  }
   .carroussel{
     max-width: 525px;
     max-height: 688px;
@@ -89,15 +96,17 @@
       background-color: $my-gray;
       color: $my-white;
       border-radius: 4px;
+      transition: 0.3s ease-in-out;
     }
     .lang:hover{
       background-color: $my-blue;
     }
     .fa-github{
       color: $my-blue;
+      transition: 0.3s ease-in-out;
     }
     .fa-github:hover{
-      color: $my-gray;
+      opacity: 0.7;;
     }
   }
   .cont-text.active{
