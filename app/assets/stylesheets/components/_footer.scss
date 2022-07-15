@@ -12,24 +12,25 @@
   align-items: center;
 }
 .footer-links a {
-  color: $my-white;
-  opacity: 0.15;
+  color: $my-gray;
+  opacity: 1;
   text-decoration: none;
-  font-size: 24px;
   padding: 0px 10px;
+  transition: 0.3s;
 }
 .footer-links a:hover {
-  opacity: 1;
+  color: $my-white;
+
 }
 .footer .fa-heart {
   color: #D23333;
 }
 .footer-paint{
   position: absolute;
-  top:  0;
+  top:  14%;
   right: 0;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 300px;
-}   
+  width: 24%;
+  height: 58%;
+}

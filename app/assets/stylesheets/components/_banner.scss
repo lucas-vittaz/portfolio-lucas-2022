@@ -17,6 +17,7 @@
       background-size: 90%;
       background-repeat: no-repeat;
       font-weight: bold;
+
       .nav-link{
         text-decoration: none;
         color: $my-orange !important;
@@ -55,6 +56,7 @@
     a{
       margin-right: 20px;
       color: $my-gray;
+      transition: 0.3s;
     }
     a:hover{
       color: $my-white;
@@ -63,6 +65,7 @@
   .scroll{
     text-decoration: none;
     color: $my-gray;
+    transition: 0.3s;
   }
   .scroll:hover{
     color: $my-white
