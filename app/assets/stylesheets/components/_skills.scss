@@ -29,17 +29,8 @@
   }
   .skills-grid-item{
     position: relative;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 16px solid $my-blue;
-
-
-    .skills-grid-percent{
-      position: absolute;
-      top: 24px;
-      left: 21px;
-    }
+    width: auto;
+    height: auto;
     .skills-grid-title{
       position: absolute;
       top: 89PX;
@@ -112,26 +103,11 @@
     text-decoration: none;
     color: $my-blue;
   }
-  .ruby{
-    left: 16px;
-  }
-  .rails{
-    left: 16px;
-  }
-  .stimulus{
 
-  }
-  .javascript{
-    left: -4px;
-  }
-  .react{
-    left: 4px;
-  }
-  .sql{
-    left: 17px;
-  }
-  .scss{
-    left: 17px;
+ .react{
+    background-image: url('https://res.cloudinary.com/lucas-vittaz/image/upload/v1658007541/portfolio/header-logo-react_padgcn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
