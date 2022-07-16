@@ -1,13 +1,26 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: transparent;
-  display: none;
-}
+.navbar{
+  background-color: transparent !important ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  .nav-link{
+    margin-right: 50px;
+    padding: 2rem;
+    text-decoration: none;
+    color: $my-white !important;
+    font-weight: bold;
+  }
+  .nav-item:hover{
+    background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    font-weight: bold;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+    .nav-link{
+      text-decoration: none;
+      color: $my-orange !important;
+    }
+  }
 }

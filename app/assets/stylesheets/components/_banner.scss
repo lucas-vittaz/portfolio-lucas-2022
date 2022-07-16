@@ -1,29 +1,7 @@
 #hero{
   position: relative;
 
-  .navbar-nav{
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    justify-content: space-between;
-    .nav-link{
-      margin-right: 50px;
-      padding: 2rem;
-      text-decoration: none;
-      color: $my-gray;
-    }
-    .nav-item:hover{
-      background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
-      background-size: 90%;
-      background-repeat: no-repeat;
-      font-weight: bold;
 
-      .nav-link{
-        text-decoration: none;
-        color: $my-orange !important;
-      }
-    }
-  }
   .banner {
     background-size: cover;
     background-position: center;
