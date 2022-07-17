@@ -27,7 +27,8 @@
     padding: 50px;
     position: relative;
     .slider img{
-      width: 100%;
+      max-width: 267px;
+      max-height: 577px;
       display: none;
       max-width: 525px;
       max-height: 688px;
@@ -42,6 +43,7 @@
   .controls{
     width: auto;
     height: 5%;
+    cursor: pointer;
     div{
       width: 116px;
       height: 4px;
@@ -56,6 +58,7 @@
       font-size: 1rem;
       font-weight: bold;
       color: $my-blue;
+      cursor: pointer;
     }
     .work-nb.active{
       display: block;
@@ -73,7 +76,7 @@
   .cont-btn{
     position: absolute;
     top: 50%;
-    left: 71.5%;
+    left: 51%;
     width: 100px;
     height: 64px;
     background-color: $my-gray;
@@ -85,7 +88,7 @@
       background-size:  contain;
       width: 100%;
       height: 100%;
-      margin-left: 15%;
+      margin-left: 20%;
       cursor: pointer;
     }
   }
