@@ -1,7 +1,7 @@
 #about{
   position: relative;
   .img-section{
-    width: 60%  ;
+    width: 60%;
   }
   h3{
     color: $my-orange;
@@ -24,12 +24,12 @@
   }
   .about-paint{
     position: absolute;
-    top: -350px;
+    top: -50%;
     left: 0;
     z-index: -1;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 81vw;
+    height: 131vh;
   }
 }
