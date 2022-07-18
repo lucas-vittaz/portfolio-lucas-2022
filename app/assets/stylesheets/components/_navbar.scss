@@ -18,9 +18,21 @@
     color: $my-white !important;
     font-weight: bold;
   }
+  .nav-item.active{
+    background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
+    background-size: contain;
+    background-position: -14PX 9px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    .nav-link{
+      text-decoration: none;
+      color: $my-orange !important;
+    }
+  }
   .nav-item:hover{
     background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
-    background-size: 90%;
+    background-size: contain;
+    background-position: -14px 9px;
     background-repeat: no-repeat;
     font-weight: bold;
 
