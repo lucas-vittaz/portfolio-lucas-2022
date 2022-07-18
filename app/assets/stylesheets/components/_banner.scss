@@ -58,6 +58,8 @@
     }
   }
   .scroll{
+    position: absolute;
+    bottom: 0;
     text-decoration: none;
     color: $my-gray;
     transition: 0.3s;
