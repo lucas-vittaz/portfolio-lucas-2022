@@ -4,6 +4,13 @@
   top: 0;
   width: 100%;
   z-index: 2;
+  .collapse{
+    @media (min-width: 30em) and (max-width: 50em) {
+        background-color: $my-blue!important;
+        border: 3px dashed $my-white;
+        border-radius: 4px;
+     }
+  }
   .nav-link{
     margin-right: 50px;
     padding: 2rem;
