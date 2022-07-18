@@ -5,9 +5,25 @@
   .banner {
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
-    width: auto;
+    background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
+    @media (min-width: 0px) and (max-width: 575px) {
+        background: $my-blue;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        background-size: 100vw 100vh  !important;
+
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        background-size: 100vw 100vh !important ;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+        background-size: 100vw 100vh !important ;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px) {
+        background-size: 100% 100vh !important;
+    }
   }
 
   .banner h1 {
@@ -51,25 +67,3 @@
   }
 
 }
-
-
-@media (max-width: 768px) {
-  .banner {
-    background-size: 100vw 100vh cover !important;
-  }
- }
-@media (max-width: 992px) {
-  .banner {
-    background-size: 100vw 100vh cover !important ;
-  }
- }
-@media (max-width: 1200px) {
-  .banner {
-    background-size: 100vw 100vh !important ;
-  }
- }
-@media (max-width: 1400px) {
-  .banner {
-    background-size: 100vw 100vh !important;
-  }
- }

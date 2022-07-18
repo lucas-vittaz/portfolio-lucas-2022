@@ -27,14 +27,12 @@
     top: -50%;
     left: 0;
     z-index: -1;
-    background-size:cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 64%;
-    height: 116vh;
+    width: 100vw;
+    height: 100vh;
+    @media (min-width: 0px) and (max-width: 575px) {
+      background: $my-blue;
+    }
   }
 }
-@media (max-width: 576px) {  }
-@media (max-width: 768px) {  }
-@media (max-width: 992px) {  }
-@media (max-width: 1200px) {  }
-@media (max-width: 1400px) {  }
