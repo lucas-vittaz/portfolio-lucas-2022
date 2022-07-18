@@ -145,7 +145,12 @@
   background-repeat: no-repeat;
   width: 500px;
   height: 1000px;
-  @media (min-width: 0px) and (max-width: 991px) {
-    top: 35%;
+  @media (min-width: 0px) and (max-width: 576px) {
+    top: 55%;
+    width: 300px;
+  }
+  @media (min-width: 577px) and (max-width: 991px) {
+    top: 50%;
+    width: 300px;
   }
 }
