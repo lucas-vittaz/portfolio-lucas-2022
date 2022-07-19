@@ -1,15 +1,5 @@
 class PagesController < ApplicationController
   def home
-
+    @contact = Contact.all
   end
-
-  def download
-    
-  end
-
-  def send_messages
-
-  end
-
-
 end
