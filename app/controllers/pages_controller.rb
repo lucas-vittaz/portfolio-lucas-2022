@@ -2,10 +2,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def contact
-    ContactMailer.contact(params[:name], params[:email], params[:message]).deliver_now
+  def create
+    @sender_email = params[:email]
+    @sender_name = params[:name]
+    @receiver_email = 'lucasvittaz.pro@gmail.com'
+    @message = params[:message]
 
-    flash[:info] = "Message envoyé"
+    ContactMailer.with(receiver_email: @receiver_email, sender_email: @sender_email, name: @sender_name, message: @message).contact.deliver_now
     redirect_to root_path
   end
 end
