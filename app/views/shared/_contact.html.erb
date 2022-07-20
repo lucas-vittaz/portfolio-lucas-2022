@@ -6,13 +6,13 @@
           <p>Drop me a line.<br>I would like to hear<br>from you.</p>
         </div>
       </div>
-      <div class="col-md-12 col-lg-6 form-contact d-flex align-items-center justify-content-center py-5">
-        <h3>Get in Touch</h3>
+      <div class="col-md-12 col-lg-6 form-contact text-center p-5">
+        <h3 class="text-center">Get in Touch</h3>
         <%= form_tag "/contact", method: "post" do %>
-          <input type="text" name="name" placeholder="Votre nom"/><br><br>
-          <input type="email" name="email" placeholder="Votre email"/><br><br>
-          <textarea name="message" placeholder="Votre message"></textarea><br><br>
-          <input type="submit" value="Envoyer"/>
+          <input type="text" name="name" placeholder="Name"/><br><br>
+          <input type="email" name="email" placeholder="Email"/><br><br>
+          <textarea name="message" placeholder="Message"></textarea><br><br>
+          <input id="btn" class="btn" type="submit" value="Submit"/>
         <% end %>
       </div>
     </div>
