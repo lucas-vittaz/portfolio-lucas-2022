@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def create
+  def contact
     ContactMailer.contact(params[:name], params[:email], params[:message]).deliver_now
 
     flash[:info] = "Message envoyé"
