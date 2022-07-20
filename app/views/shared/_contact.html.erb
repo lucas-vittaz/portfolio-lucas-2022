@@ -8,6 +8,12 @@
       </div>
       <div class="col-md-12 col-lg-6 form-contact d-flex align-items-center justify-content-center py-5">
         <h3>Get in Touch</h3>
+        <%= form_tag "/contact", method: "post" do %>
+          <input type="text" name="name" placeholder="Votre nom"/><br><br>
+          <input type="email" name="email" placeholder="Votre email"/><br><br>
+          <textarea name="message" placeholder="Votre message"></textarea><br><br>
+          <input type="submit" value="Envoyer"/>
+        <% end %>
       </div>
     </div>
   </div>

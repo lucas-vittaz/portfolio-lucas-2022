@@ -1,6 +1,11 @@
 class PagesController < ApplicationController
   def home
-    UserMailer.contact().deliver_now
-   end
+  end
 
+  def create
+    ContactMailer.contact(params[:name], params[:email], params[:message]).deliver_now
+
+    flash[:info] = "Message envoyé"
+    redirect_to root_path
+  end
 end
