@@ -9,6 +9,7 @@ class PagesController < ApplicationController
     @message = params[:message]
 
     ContactMailer.with(receiver_email: @receiver_email, sender_email: @sender_email, name: @sender_name, message: @message).contact.deliver_now
+    flash[:info] = "Your message has been successfully sent"
     redirect_to root_path
   end
 end
