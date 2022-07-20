@@ -1,4 +1,5 @@
 class ContactMailer < ApplicationMailer
+  default from: 'lucasvittaz.pro@gmail.com'
   def contact
     @sender_email = params[:sender_email]
     @sender_name = params[:sender_name]
