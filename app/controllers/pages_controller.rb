@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
   def home
-  end
+    UserMailer.contact().deliver_now
+   end
+
 end
