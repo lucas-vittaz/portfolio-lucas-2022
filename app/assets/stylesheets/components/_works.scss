@@ -20,14 +20,19 @@
   .scroll:hover{
     color: $my-orange;
   }
+  .row.d-flex.align-items-center{
+    @media (min-width: 0px) and (max-width: 991px) {
+      flex-direction: column-reverse;
+    }
+  }
   .carroussel{
     max-width: 525px;
     max-height: 688px;
     margin: 0, auto;
-    position: relative;
+    .slider{
+      position: relative;
+    }
     .slider img{
-      max-width: 267px;
-      max-height: 577px;
       display: none;
       max-width: 525px;
       max-height: 688px;
@@ -37,6 +42,25 @@
     img.active{
       display: block;
       animation: fade 0.8s;
+    }
+    .cont-btn{
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 100px;
+      height: 64px;
+      background-color: $my-gray;
+      box-shadow: 0 0.5px 0.5px $my-blue;
+      border-radius: 35px 0 0 35px;
+      .btn-nav{
+        background-image: url('https://res.cloudinary.com/lucas-vittaz/image/upload/v1658064240/portfolio/Frame_2_mkl1ca.svg');
+        background-repeat: no-repeat;
+        background-size:  contain;
+        width: 100%;
+        height: 100%;
+        margin-left: 20%;
+        cursor: pointer;
+      }
     }
   }
   .controls{
@@ -72,46 +96,7 @@
       opacity: 1;
     }
   }
-  .cont-btn{
-    position: absolute;
-    top: 50%;
-    left: 61.3%;
-    width: 100px;
-    height: 64px;
-    background-color: $my-gray;
-    box-shadow: 0 0.5px 0.5px $my-blue;
-    border-radius: 35px 0 0 35px;
-    @media (min-width: 0px) and (max-width: 296px) {
-      left: 74%;
-    }
-    @media (min-width: 297px) and (max-width: 318px) {
-      left: 72%;
-    }
-    @media (min-width: 319px) and (max-width: 350px) {
-      left: 70%;
-    }
-    @media (min-width: 351px) and (max-width: 386px) {
-      left: 68%;
-    }
-    @media (min-width: 387px) and (max-width: 428px) {
-      left: 66%;
-    }
-    @media (min-width: 429px) and (max-width: 506px) {
-      left: 64%;
-    }
-    @media (min-width: 507px) and (max-width: 543px) {
-      left: 62%;
-    }
-  }
-  .btn-nav{
-    background-image: url('https://res.cloudinary.com/lucas-vittaz/image/upload/v1658064240/portfolio/Frame_2_mkl1ca.svg');
-    background-repeat: no-repeat;
-    background-size:  contain;
-    width: 100%;
-    height: 100%;
-    margin-left: 20%;
-    cursor: pointer;
-  }
+
 }
   .cont-text{
     display: none;
