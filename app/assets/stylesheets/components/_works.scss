@@ -138,6 +138,10 @@
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
+    @media (min-width: 0px) and (max-width: 970px) {
+      top:  50%;
+      left: 0;
+    }
   }
   .works-paint-2{
     position: absolute;
