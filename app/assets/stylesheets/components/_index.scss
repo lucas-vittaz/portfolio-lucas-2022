@@ -10,3 +10,26 @@
 @import "contact";
 @import "footer";
 @import "btn";
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+.reveal-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+.reveal-top {
+  opacity: 0;
+  transform: translateY(50px);
+}
+.reveal-bottom {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0px);
+  transform: translateX(0px);
+  transition: 1.3s cubic-bezier(0.5, 0, 0, 1);
+}
