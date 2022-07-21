@@ -1,12 +1,12 @@
-<section id="contact" class="py-5" style="background-image: url('https://res.cloudinary.com/lucas-vittaz/image/upload/v1658160614/portfolio/image_1_Traced_1_zxei0h.svg');">
+<section id="contact" class="py-5" data-controller="intersection" style="background-image: url('https://res.cloudinary.com/lucas-vittaz/image/upload/v1658160614/portfolio/image_1_Traced_1_zxei0h.svg');">
   <div class="container" >
     <div class="row py-5">
-      <div class="col-md-12 col-lg-6 form-contact d-flex align-items-center justify-content-around py-5">
+      <div class="col-md-12 col-lg-6 form-contact d-flex align-items-center justify-content-around py-5 reveal-bottom">
         <div>
           <p>Drop me a line.<br>I would like to hear<br>from you.</p>
         </div>
       </div>
-      <div class="col-md-12 col-lg-6 form-contact text-center p-5">
+      <div class="col-md-12 col-lg-6 form-contact text-center p-5 reveal-top">
         <h3 class="text-center">Get in Touch</h3>
         <%= form_tag "/contact", method: "post" do %>
           <input type="text" name="name" placeholder="Name"/><br><br>
