@@ -8,8 +8,7 @@ class PagesController < ApplicationController
     @receiver_email = 'lucasvittaz.pro@gmail.com'
     @message = params[:message]
 
-    ContactMailer.with(receiver_email: @receiver_email, sender_email: @sender_email, name: @sender_name, message: @message).contact.deliver_now
-    flash[:info] = "Your message has been successfully sent"
-    redirect_to root_path
+    ContactMailer.with(receiver_email: @receiver_email, sender_email: @sender_email, sender_name: @sender_name, message: @message).contact.deliver_now
+    flash[:success] = "Thank you for your message! We'll get contact you soon!"
   end
 end
