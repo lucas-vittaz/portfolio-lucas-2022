@@ -14,8 +14,10 @@
           <textarea name="message" placeholder="Message"></textarea><br><br>
           <input id="btn" class="btn" type="submit" value="Submit"/>
         <% end %>
-        <% if notice %>
-          <p class="alert alert-success"><%= notice %></p>
+        <% if flash[:success] %>
+          <div class="alert alert-success"><%= flash[:success] %>
+
+          </div>
         <% end %>
       </div>
     </div>
