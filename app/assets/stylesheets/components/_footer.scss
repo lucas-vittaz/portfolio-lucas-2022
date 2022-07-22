@@ -6,46 +6,47 @@
   justify-content: space-between;
   padding: 0px 50px;
   color: $my-white;
-}
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-.footer-links a {
-  color: $my-gray;
-  opacity: 1;
-  text-decoration: none;
-  padding: 0px 10px;
-  transition: 0.3s;
-}
-.footer-links a:hover {
-  color: $my-white;
+  .footer-links {
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    a {
+      color: $my-gray;
+      opacity: 1;
+      text-decoration: none;
+      padding: 0px 10px;
+      transition: 0.3s;
 
-}
-.footer .fa-heart {
-  color: #D23333;
-}
-.footer-paint{
-  position: absolute;
-  top:  0%;
-  background-repeat: no-repeat;
-  background-size: 165% 75%;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  @media (min-width: 0px) and (max-width: 575px) {
-    background-size: 173% 24%;
+    }
+    a:hover {
+      color: $my-white !important;
+    } 
   }
-  @media (min-width: 576px) and (max-width: 767px) {
-    background-size: 161% 49%;
+  .fa-heart {
+    color: #D23333 !important;
   }
-  @media (min-width: 768px) and (max-width: 991px) {
-    background-size: 162% 55%;
-  }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    background-size: 162% 62%;
-  }
-  @media (min-width: 1200px) and (max-width: 1399px) {
+  .footer-paint{
+    position: absolute;
+    top:  0%;
+    background-repeat: no-repeat;
     background-size: 165% 75%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    @media (min-width: 0px) and (max-width: 575px) {
+      background-size: 173% 24%;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      background-size: 161% 49%;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      background-size: 162% 55%;
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      background-size: 162% 62%;
+    }
+    @media (min-width: 1200px) and (max-width: 1399px) {
+      background-size: 165% 75%;
+    }
   }
 }
