@@ -7,8 +7,9 @@
   .collapse{
     @media (min-width: 0px) and (max-width: 991px) {
         background-color: $my-blue!important;
-        border: 3px dashed $my-white;
         border-radius: 4px;
+        width: 50vw;
+        height: 75vh;
      }
   }
   .nav-link{
@@ -24,10 +25,15 @@
     background-position: -14PX 9px;
     background-repeat: no-repeat;
     font-weight: bold;
+
     .nav-link{
       text-decoration: none;
       color: $my-orange !important;
     }
+  }
+  .nav-item{
+    transition:  background-size 5s;
+    background-size: 0% 0%;
   }
   .nav-item:hover{
     background-image: url(https://res.cloudinary.com/lucas-vittaz/image/upload/v1656424545/portfolio/Group_50_vlhxar.svg);
@@ -35,6 +41,7 @@
     background-position: -14px 9px;
     background-repeat: no-repeat;
     font-weight: bold;
+
 
     .nav-link{
       text-decoration: none;
