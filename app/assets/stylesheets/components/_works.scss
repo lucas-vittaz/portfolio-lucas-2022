@@ -100,18 +100,22 @@
 }
   .cont-text{
     display: none;
-    .lang{
-      margin-right: 10px;
+    .lang-group{
       width: 100%;
-      height: auto;
-      padding: 0.7rem;
-      background-color: $my-gray;
-      color: $my-white;
-      border-radius: 4px;
-      transition: 0.3s ease-in-out;
-    }
-    .lang:hover{
-      background-color: $my-blue;
+      .lang{
+        margin-right: 10px;
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        background-color: $my-gray;
+        color: $my-white;
+        border-radius: 4px;
+        font-size: 0.75rem!important;
+        transition: 0.3s ease-in-out;
+      }
+      .lang:hover{
+        background-color: $my-blue;
+      }
     }
     .fa-github{
       color: $my-blue;
